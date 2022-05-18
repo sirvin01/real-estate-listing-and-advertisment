@@ -1,0 +1,71 @@
+.thumbnail {
+  width: 100%;
+  height: 80%;
+  
+}
+
+.house-title {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.house-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-picture {
+  width: 36px;
+  border-radius: 50px;
+}
+.house-info{
+  display: block;
+}
+.house-row {
+  display: contents;
+  margin-bottom: 8px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 10px 20px beige;
+  border: 2px solid black;
+}
+
+.house-owner,
+.house-state {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.house-owner {
+  margin-bottom: 4px;
+}
+
+.house-grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  margin-top: 60px;
+}
+
+@media (max-width: 750px) {
+  .house-grid1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .house-grid1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .house-grid1 {
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
+

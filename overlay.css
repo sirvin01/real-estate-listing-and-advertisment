@@ -1,0 +1,62 @@
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: grey;
+    cursor: pointer;
+}
+.house-row:hover{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: black;
+    font-size: x-large;
+}
+/* .house-row:hover .overlay{
+    opacity:0.8;
+}    */
+.house-row:hover .thumbnail{
+    opacity:0.8;
+    }
+/* .house-preview:hover{
+    transform: scale(1.2);
+    transition-delay: 8.3s;
+    transition: 2s;
+    margin-bottom: 10px;
+    margin-top: 10px;
+      transform:scaleY(110%);
+} */
+/* .house-preview:hover .house-grid{
+      margin-bottom: 40px;
+      background-color: black;
+      background-color: grey;
+      color: black;
+      font-size: large; 
+} */
+button {
+     padding: 0.75em 1em;
+     border-radius: 10px;
+     height: 40px;
+     width: 100px;
+     background-color: white;
+}
+a{  
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+}
+a:hover{
+    color: #fff;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+ }
+

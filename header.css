@@ -1,0 +1,29 @@
+.fixed-header{
+  width: 100%;
+  position:fixed;        
+  background: rgb(255, 255, 255);
+  padding: 10px 0;
+  opacity: 0.9;
+  text-align:right;
+  z-index: 100;
+}
+.fixed-header{
+  top:0;
+}
+.header{
+  width: 100%;
+  margin: 0 auto;
+  position: 20px;
+}
+nav a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 12px 30px;
+  display: inline-block;
+  font-size: x-large;
+}
+@media (max-width: 250px) {
+  nav a {
+    display: inline-block;
+  }
+}
